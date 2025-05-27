@@ -10,7 +10,6 @@ st.title("Aplikasi Sederhana")
 st.header("Aplikasi Nilai Genap/Ganjil")
 angka = st.number_input("Tulis Sebuah Angka:", value=0, step=1)
 
-
 if (angka % 2) ==0:
     st.write(f"{angka} adalah Bilangan Genap")
 else: 
